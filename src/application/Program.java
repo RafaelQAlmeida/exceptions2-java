@@ -31,9 +31,9 @@ public class Program {
 
             account.withdraw(withdraw);
 
-            System.out.println("New balance: $" + String.format("%.2f",account.getBalance());
+            System.out.println("New balance: $" + String.format("%.2f",account.getBalance()));
         } catch (Exception e){
-            System.out.println("error" + e.getMessage());
+            System.out.println("Withdraw error: " + e.getMessage());
         }
 
         sc.close();
